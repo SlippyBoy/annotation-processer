@@ -25,7 +25,7 @@ import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
 
 @AutoService(Processor.class)
-public class NewIntentProcesser extends AbstractProcessor{
+public class NewIntentProcessor extends AbstractProcessor{
 
     private static final ClassName CONTEXT = ClassName.get("android.content", "Context");
     private static final ClassName INTENT = ClassName.get("android.content", "Intent");
